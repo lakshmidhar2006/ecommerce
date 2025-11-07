@@ -1,0 +1,54 @@
+# ==========================
+# 🔒 Python / FastAPI Ignore
+# ==========================
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Bytecode / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.so
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+.env
+*.env
+
+# Log files
+*.log
+logs/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+
+# Coverage and testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Uvicorn PID or runtime files
+*.pid
+
+# Optional: Render / Railway deployment configs (if generated locally)
+render.yaml
+
+# Optional: Docker files (if you add them later)
+Dockerfile
+docker-compose.yml
